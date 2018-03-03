@@ -1,0 +1,12 @@
+{
+	"description": "NativeScript Application",
+	"license": "SEE LICENSE IN <your-license-filename>",
+	"readme": "NativeScript Application",
+	"repository": "<fill-your-repository-here>",
+	"nativescript": {
+		"id": "org.nativescript.vue.webpack"
+	},
+	"dependencies": {
+		"tns-core-modules": "3.4.0"
+	}
+}
