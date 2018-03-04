@@ -1,22 +1,20 @@
 # nativescript-vue-master
 
-A WIP webpack template for nativescript-vue with optional code-sharing between your native mobile app and the web
+A WIP webpack template for nativescript-vue with optional code-sharing between your native mobile app and the web.  
+_This is clone from git@github.com:rigor789/nativescript-vue-webpack-template.git_
 
-this is clone from git@github.com:rigor789/nativescript-vue-webpack-template.git
+> This project still on progress, please don't use for a real application.
 
+```
 How to run:
+git clone git@github.com:eksant/nativescript-vue-master.git  
+cd nativescript-vue-master  
+npm install  
 
-git clone git@github.com:eksant/nativescript-vue-master.git
+Terminal 1 (for the web version, a dev-server is configured with HMR on port 8080) :
+npm run dev:server
 
-cd nativescript-vue-master
-
-npm install
-
-npm run dev
-
-# terminal 1
-# for the web version, a dev-server is configured with HMR on port 8080:
-`npm run dev:server`
-
-# terminal 2
-npm run tns -- run android # wip this won't be required later
+Terminal 2 (for mobile android / ios) :
+npm run dev:ios
+npm run dev:android
+```
